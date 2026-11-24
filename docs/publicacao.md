@@ -2,7 +2,7 @@
 
 ## GitHub
 
-Repositório público: https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados.
+Repositório público: https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados.
 O primeiro envio foi confirmado; a branch local `main` acompanha `origin/main`.
 Código, notebook, requirements.txt, documentação, CSV final, metadados e PDF técnico já estão no GitHub.
 Não versionar `.venv`, dados brutos, textos livres de avaliações, credenciais, caches ou work/.

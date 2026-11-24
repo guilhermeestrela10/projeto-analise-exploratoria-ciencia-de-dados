@@ -67,9 +67,9 @@ As pendências de autoria e validação da equipe permanecem.
 
 # Atualização final da segunda revisão - 17/11/2026
 
-- Repositório público confirmado: https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados.
+- Repositório público confirmado: https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados.
 - Pushes confirmados; o histórico original do proprietário foi preservado.
-- Código verificado remotamente no commit 39e54e6: https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados/actions/runs/44185881745. Resultado: success.
+- Código verificado remotamente no commit 39e54e6: https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados/actions/runs/44185881745. Resultado: success.
 - Suíte local atual: 33 testes passaram em 34,56 s. Dependências e sintaxe também verificadas.
 - O primeiro CI falhou porque work/pytest dependia de um diretório pai ausente no clone; corrigido em pytest.ini para .pytest-tmp. O novo CI concluiu com sucesso em clone Linux limpo.
 - O PDF foi estabilizado com invariant=1: entradas iguais geram os mesmos bytes, comprovado por teste de repetição.

@@ -34,3 +34,7 @@ As alterações assistidas desta revisão serão identificadas nos novos commits
 Consultar reports/verificacao.md para comandos efetivamente executados, falhas e correções observadas.
 Na leitura inicial do PDF houve UnicodeEncodeError no terminal Windows; a leitura integral foi repetida com python -X utf8.
 O registro de correções automáticas não substitui o exemplo crítico e a explicação que cada integrante deve conseguir apresentar.
+
+## Organização dos repositórios — 24/11/2026
+
+Assistência do Codex solicitada pelo proprietário: navegação no README, atualização de links para o nome em minúsculas e organização da apresentação no GitHub. Código, dados, conclusões e contribuições da equipe foram preservados. Não representa nova revisão humana do relatório.

@@ -67,8 +67,8 @@ Prazo: 30/11/2026, 23h59 de Brasília. Apresentação: 02/12/2026, até dez minu
 
 ## Atualização após respostas do solicitante
 
-- Nome confirmado: Projeto-Analise-Exploratoria-ciencia-de-dados.
-- Repositório público criado e push confirmado: https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados.
+- Nome confirmado: projeto-analise-exploratoria-ciencia-de-dados.
+- Repositório público criado e push confirmado: https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados.
 - As três respostas foram recebidas; as correções factuais e definições dos critérios foram aprovadas expressamente pelo solicitante. Não se presume revisão dos outros integrantes.
 - Monitoramento implementado: TAD > 10%, nota < 3,8, coorte dos últimos 30 dias da base filtrada, peso 1 por pedido avaliado e dias úteis sem feriados. Nenhum limite de tempo médio foi inventado.
 - O diário recebeu contagens e operações implementadas, mantendo justificativas humanas pendentes. Não foram fabricadas decisões de reuniões do grupo.

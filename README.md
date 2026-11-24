@@ -1,4 +1,4 @@
-# Projeto-Analise-Exploratoria-ciencia-de-dados
+# projeto-analise-exploratoria-ciencia-de-dados
 
 Centro Universitário Santo Agostinho (UNIFSA) - Bacharelado em Engenharia de Software.
 Disciplina: Ciência de Dados. Professora: Heloisa Guimarães. Grupo 04, Briefing 5: Gestão de Vendedores Parceiros.
@@ -182,7 +182,7 @@ As três respostas foram fornecidas pelo solicitante e receberam revisão factua
 Desafios técnicos: granularidade de itens/avaliações, ausência de despacho por vendedor, múltiplas avaliações, cronologias contraditórias e amostras incompletas.
 Consultar `docs/apresentacao.md`, `docs/publicacao.md` e `docs/auditoria_rubrica.md`.
 
-Repositório público: [Projeto-Analise-Exploratoria-ciencia-de-dados](https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados). Nome: `Projeto-Analise-Exploratoria-ciencia-de-dados`.
+Repositório público: [projeto-analise-exploratoria-ciencia-de-dados](https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados). Nome: `projeto-analise-exploratoria-ciencia-de-dados`.
 Painel Streamlit Community Cloud: [Abrir painel](https://wuevyectn67rbfng9xqssx.streamlit.app/). O proprietário confirmou abertura sem login em janela anônima e funcionamento das três páginas.
 O CSV deve ficar abaixo de 100 MB. O pipeline verifica esse limite e não remove linhas para reduzi-lo.
 Para o envio do grupo: conferir a versão consolidada, as contribuições reais dos integrantes e enviar o PDF
@@ -200,3 +200,15 @@ Atualização de publicação: repositório público sincronizado. O proprietár
 ## Confirmação manual de publicação
 
 O proprietário confirmou nesta conversa que o painel abre em janela anônima, sem login, e que as três páginas funcionam. Essa é uma confirmação manual do proprietário; não representa inspeção visual independente da ferramenta nem teste manual de todos os filtros.
+
+## Navegação pelo repositório
+
+- `app.py` e `pages/`: entrada e páginas do painel.
+- `src/`: carregamento, preparação, análise e visualização.
+- `scripts/`: pipeline, notebook, relatório e verificação de entrega.
+- `data/`: proveniência e tabela processada.
+- `notebooks/`: análise exploratória.
+- `reports/`: evidências, gráficos e relatório final.
+- `docs/`: apresentação, publicação e revisões.
+- `tests/`: testes automatizados.
+- `uso_de_ia.md`: registro da assistência, incluindo esta organização.

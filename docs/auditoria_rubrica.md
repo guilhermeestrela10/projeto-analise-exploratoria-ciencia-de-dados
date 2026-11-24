@@ -14,7 +14,7 @@ Fonte: PDF oficial, página 5; anexos B/C/D nas páginas 11/12. A auditoria não
 
 ## Entregáveis e restrições
 
-- Repositório público com nome `Projeto-Analise-Exploratoria-ciencia-de-dados`: publicado e confirmado na conta guilhermeestrela10; consultar README para o link.
+- Repositório público com nome `projeto-analise-exploratoria-ciencia-de-dados`: publicado e confirmado na conta guilhermeestrela10; consultar README para o link.
 - Código, notebook, função de pipeline, CSV, dicionário, painel e requirements: preparados; execução verificada em reports/verificacao.md.
 - CSV final menor que 100 MB: tamanho e hash em data/processed/metadados.json; nenhuma linha foi removida para diminuir tamanho.
 - Registro de IA: uso_de_ia.md, seis registros, marcadores nos arquivos Python, sem revisão humana fictícia.

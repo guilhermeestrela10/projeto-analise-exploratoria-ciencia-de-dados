@@ -89,9 +89,9 @@ No computador usado nesta revisão existe também uma amostra real em `work/amos
 ## Links para encaminhar ao líder
 
 - [Painel publicado](https://wuevyectn67rbfng9xqssx.streamlit.app/)
-- [Repositório completo](https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados)
-- [Baixar relatório PDF](https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados/raw/refs/heads/main/reports/relatorio_final.pdf)
-- [Baixar projeto em ZIP](https://github.com/guilhermeestrela10/Projeto-Analise-Exploratoria-ciencia-de-dados/archive/refs/heads/main.zip)
+- [Repositório completo](https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados)
+- [Baixar relatório PDF](https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados/raw/refs/heads/main/reports/relatorio_final.pdf)
+- [Baixar projeto em ZIP](https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados/archive/refs/heads/main.zip)
 
 ## Conferência para a entrega do grupo
 
