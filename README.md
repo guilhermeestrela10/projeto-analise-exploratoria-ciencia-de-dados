@@ -1,4 +1,14 @@
-# projeto-analise-exploratoria-ciencia-de-dados
+# Olist — análise exploratória de vendedores
+
+Análise exploratória sobre atrasos, avaliações e critérios de acompanhamento de vendedores parceiros. Projeto acadêmico do Grupo 04, com painel Streamlit e uso de IA declarado.
+
+[![Testes](https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados/actions/workflows/testes.yml/badge.svg?branch=main)](https://github.com/guilhermeestrela10/projeto-analise-exploratoria-ciencia-de-dados/actions/workflows/testes.yml)
+
+[Painel](https://wuevyectn67rbfng9xqssx.streamlit.app/) · [Instalação](#instalação-no-vs-code) · [Apresentação](docs/apresentacao.md) · [Registro de IA](uso_de_ia.md)
+
+**Escopo:** análise descritiva. A tabela analítica tem uma linha por pedido-vendedor; avaliações de pedidos multivendedor não são atribuídas individualmente. Limitações, proveniência, conclusões e responsabilidades da equipe estão documentadas abaixo e nos relatórios.
+
+## Contexto acadêmico e autoria
 
 Centro Universitário Santo Agostinho (UNIFSA) - Bacharelado em Engenharia de Software.
 Disciplina: Ciência de Dados. Professora: Heloisa Guimarães. Grupo 04, Briefing 5: Gestão de Vendedores Parceiros.

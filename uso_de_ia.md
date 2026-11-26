@@ -38,3 +38,8 @@ O registro de correções automáticas não substitui o exemplo crítico e a exp
 ## Organização dos repositórios — 24/11/2026
 
 Assistência do Codex solicitada pelo proprietário: navegação no README, atualização de links para o nome em minúsculas e organização da apresentação no GitHub. Código, dados, conclusões e contribuições da equipe foram preservados. Não representa nova revisão humana do relatório.
+
+
+## Apresentação e manutenção — 26/11/2026
+
+Por solicitação do proprietário, o Codex revisou a apresentação do README, adicionou configuração editorial e fixou versões das ações de CI por SHA. Os dados, o código analítico, o relatório e as contribuições declaradas foram preservados. O registro não constitui nova revisão humana da entrega.
