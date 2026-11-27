@@ -1,3 +1,4 @@
+.editorconfig
 .gitattributes
 .github/workflows/testes.yml
 .gitignore
@@ -10,11 +11,11 @@ data/processed/metadados.json
 data/processed/tabela_analitica.csv
 data/raw/proveniencia.json
 docs/apresentacao.md
-docs/entrega_etapas_7_8.md
-docs/auditoria_rubrica.md
+docs/painel-e-documentacao.md
 docs/plano.md
 docs/publicacao.md
 docs/revisao_final.md
+docs/validacao.md
 notebooks/analise_exploratoria.ipynb
 pages/1_Atrasos_no_Despacho.py
 pages/2_Atrasos_e_Avaliacoes.py
@@ -25,7 +26,6 @@ reports/alternativas_outliers.csv
 reports/ambiente.txt
 reports/antes_depois.csv
 reports/apoio_tecnico_diario.md
-reports/arquivos_entrega.txt
 reports/avaliacoes_estratificadas.csv
 reports/comparacao_avaliacoes.csv
 reports/comparacao_prazos.csv
@@ -44,6 +44,7 @@ reports/graficos/correlacao.png
 reports/graficos/distribuicao.png
 reports/graficos/ranking.png
 reports/graficos/temporal.png
+reports/manifesto.txt
 reports/metricas_vendedores.csv
 reports/perfil_items.csv
 reports/perfil_orders.csv
@@ -64,7 +65,7 @@ scripts/baixar_dados.py
 scripts/executar_pipeline.py
 scripts/gerar_relatorio.py
 scripts/preparar_notebook.py
-scripts/verificar_entrega.py
+scripts/verificar_autoria.py
 src/__init__.py
 src/analysis.py
 src/dashboard.py
@@ -74,8 +75,8 @@ src/preprocessing.py
 src/reporting.py
 src/visualizations.py
 tests/test_analysis.py
+tests/test_autoria.py
 tests/test_dashboard.py
-tests/test_entrega.py
 tests/test_pipeline.py
 tests/test_preprocessing.py
 tests/test_report.py

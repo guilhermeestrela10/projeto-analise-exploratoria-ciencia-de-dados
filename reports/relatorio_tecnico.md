@@ -2,7 +2,7 @@
 
 ## 1. Problema e recorte
 
-O Briefing 5 trata de gestão de vendedores parceiros: identificar atrasos de despacho, investigar a associação com avaliações e apoiar a discussão de critérios objetivos. A data de transportadora existe no nível do pedido. A análise individual usa pedidos com um único vendedor observado; isso não comprova responsabilidade e depende da cobertura dos itens recebidos. A contextualização complementar e as referências consultadas pela ferramenta aparecem na seção 12, sem atribuição de pesquisa aos integrantes.
+O projeto trata de gestão de vendedores parceiros: identificar atrasos de despacho, investigar a associação com avaliações e apoiar a discussão de critérios objetivos. A data de transportadora existe no nível do pedido. A análise individual usa pedidos com um único vendedor observado; isso não comprova responsabilidade e depende da cobertura dos itens recebidos. A contextualização complementar e as referências consultadas pela ferramenta aparecem na seção 12, sem atribuição de pesquisa aos integrantes.
 
 ## 2. Dados e relacionamentos
 
@@ -10,7 +10,7 @@ Fonte: Olist Brazilian E-Commerce Public Dataset, Kaggle. Cinco arquivos foram o
 
 ## 3. Ciclo de vida CRISP-DM
 
-Compreensão do negócio: três perguntas do briefing. Compreensão dos dados: perfis, ausências, chaves e estatísticas. Preparação: limpeza, conversões, agregação e engenharia. A etapa de modelagem não inclui modelos de IA, classificação ou previsão, conforme proibição do trabalho. Avaliação: testes, recortes reais e comparação de alternativas. Entrega: CSV, notebook, painel, relatório e repositório público. O proprietário confirmou o acesso público ao painel e informou a revisão do relatório pelo grupo.
+Compreensão do negócio: três perguntas do escopo. Compreensão dos dados: perfis, ausências, chaves e estatísticas. Preparação: limpeza, conversões, agregação e engenharia. A etapa de modelagem não inclui modelos de IA, classificação ou previsão, conforme o escopo descritivo adotado. Avaliação: testes, recortes reais e comparação de alternativas. Entrega: CSV, notebook, painel, relatório e repositório público. O proprietário confirmou o acesso público ao painel e informou a revisão do relatório pelo grupo.
 
 ## 4. Exploração e qualidade
 

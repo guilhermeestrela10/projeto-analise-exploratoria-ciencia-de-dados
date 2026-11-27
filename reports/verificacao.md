@@ -1,6 +1,6 @@
 ## Entrega das etapas 7 e 8 - 20/11/2026
 
-Responsável informado: Guilherme Estrela. Guia em `docs/entrega_etapas_7_8.md`.
+Responsável informado: Guilherme Estrela. Guia em `docs/painel-e-documentacao.md`.
 Reaproveitado o painel integrado, sem alterar suas métricas ou reatribuir as etapas anteriores.
 Atualizados README, roteiro de apresentação e registro de assistência. Corrigida mensagem fixa do CLI
 que declarava pendência autoral sem consultar o estado da revisão; o pipeline não avalia autoria.
@@ -29,7 +29,7 @@ As seções seguintes preservam o histórico das revisões anteriores e suas dat
 O solicitante confirmou nesta conversa que ele e o grupo revisaram o relatório. A versão do PDF foi
 atualizada para refletir essa declaração, sem afirmar que a ferramenta acompanhou a revisão humana.
 As indicações de assistência de IA e os registros anteriores foram preservados. A declaração de revisão
-não equivale à aprovação da professora nem altera a origem dos textos ou comprova contribuições individuais.
+não equivale à validação independente nem altera a origem dos textos ou comprova contribuições individuais.
 O registro está em reports/revisao_equipe.json.
 
 ---
@@ -90,7 +90,7 @@ As pendências de autoria e validação da equipe permanecem.
 
 Verificações realizadas automaticamente pelo Codex. **Não representam revisão humana dos integrantes.**
 Pasta de trabalho: projeto CIENCIAS DE DADOS, aberto no VS Code e inicialmente vazio.
-Documento oficial lido integralmente: 12 páginas, incluindo anexos A/B/C/D, rubrica e restrições de IA.
+Referências e restrições de uso revisadas na preparação original; o registro não equivale à validação independente dos resultados.
 
 ## Ambiente
 
@@ -200,4 +200,4 @@ adicionais para preço/frete infinitos e vendedor parcial/totalmente ausente. N�
 - Autoria humana obrigatória: sumário executivo, justificativas do diário, respostas de negócio e conclusões.
 - Confirmar frentes dos integrantes, revisar tecnicamente o trabalho, produzir commits reais e ensaiar demonstração.
 - Teste em outro sistema operacional e execução remota no Community Cloud **não realizados**.
-- Auditoria da rubrica em docs/auditoria_rubrica.md; não se afirma entrega integral enquanto autoria/publicação estiverem pendentes.
+- Revisão dos critérios técnicos em docs/validacao.md; não se afirma entrega integral enquanto autoria/publicação estiverem pendentes.

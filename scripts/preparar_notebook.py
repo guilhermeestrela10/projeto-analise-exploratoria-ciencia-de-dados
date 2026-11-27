@@ -13,7 +13,7 @@ def main():
     nb = nbf.v4.new_notebook()
     md, code = nbf.v4.new_markdown_cell, nbf.v4.new_code_cell
     nb.cells = [
-        md('# Grupo 04 - Briefing 5\nUNIFSA, Ciência de Dados, Heloisa Guimarães.\n\nNotebook técnico assistido por IA, registro 3. Conclusões e justificativas ficam para autoria humana. Os dados usados são os originais Olist.'),
+        md('# Olist Seller Analytics\nAnálise exploratória de vendedores.\n\nNotebook técnico assistido por IA, registro 3. Conclusões e justificativas ficam para autoria humana. Os dados usados são os originais Olist.'),
         code('# [IA] registro 3\nfrom pathlib import Path\nimport sys, json\nroot = Path.cwd()\nif not (root / "src").exists():\n    root = root.parent\nsys.path.insert(0, str(root))\nfrom src.load_data import load_data\nfrom src.preprocessing import preprocessar, profile\nfrom src.analysis import seller_metrics, review_comparison, selection_report\nfrom src.visualizations import ranking_chart, review_chart\nimport pandas as pd\nimport matplotlib.pyplot as plt\nraw = load_data(root / "data/raw")\nnames = ["orders", "items", "products", "sellers", "reviews"]'),
         md('## 1. Compreensão do negócio e dos dados\nObjetivo: fornecer evidências sobre despacho e avaliações. Não há modelagem preditiva. Chaves: pedido, pedido-item, produto, vendedor. Avaliações podem se repetir por pedido.'),
         code('# [IA] registro 3\npd.DataFrame([{ "tabela": n, "linhas": len(d), "colunas": len(d.columns), "duplicatas": int(d.duplicated().sum())} for n,d in zip(names,raw)])'),
@@ -26,7 +26,7 @@ def main():
         code('# [IA] registro 1\ndisplay(tabela[["sales_value", "demo_sales_minmax", "demo_sales_zscore", "demo_status_delivered", "demo_status_shipped", "demo_status_other"]].head())\nselection, correlations = selection_report(tabela)\nprint(json.dumps(selection, ensure_ascii=False, indent=2))\ndisplay(correlations)'),
         md('## 5. Engenharia de atributos\nTécnicas distintas: diferenças temporais; indicadores condicionais; agregação de itens/pedidos por grupo; extração de mês e dia da semana; razão entre frete e valor. A comparação individual exclui pedidos multivendedor observados.'),
         code('# [IA] registro 1\ndisplay(tabela[["approval_to_carrier_days", "dispatch_delay_days", "dispatch_late", "transport_days", "delivery_late", "item_count", "purchase_month", "purchase_weekday", "freight_share"]].describe(include="all"))'),
-        md('## 6. Evidências para as perguntas do briefing\nAs tabelas abaixo são resultados calculados. A equipe deve produzir as respostas de negócio e conclusões; associação não implica causalidade.'),
+        md('## 6. Evidências para as perguntas do escopo\nAs tabelas abaixo são resultados calculados. A equipe deve produzir as respostas de negócio e conclusões; associação não implica causalidade.'),
         code('# [IA] registro 2\nmetrics = seller_metrics(tabela)\ndisplay(metrics[metrics.eligible_orders.ge(30)].head(15))\ncomparison = review_comparison(tabela)\ndisplay(comparison)\ndisplay(tabela[tabela.eligible_dispatch].groupby("purchase_month").dispatch_late.agg(["mean", "count"]))\ndisplay(tabela[tabela.eligible_review].groupby(["dispatch_late", "delivery_late"], dropna=False).review_score.agg(["mean", "count"]))'),
         code('# [IA] registro 2\ndisplay(ranking_chart(metrics[metrics.eligible_orders.ge(30)]))\ndisplay(review_chart(comparison))\nplt.close("all")'),
         md('## 7. Validação da reprodução em recortes reais\nA amostra preserva itens e dimensões dos pedidos sorteados. Um recorte independente pode não possuir correspondência. A cobertura dos itens é indispensável para interpretar vendedor único.'),
@@ -35,11 +35,11 @@ def main():
     nb.metadata['kernelspec'] = {'display_name': 'Python 3', 'language': 'python', 'name': 'python3'}
     nb.metadata['language_info'] = {'name': 'python', 'version': sys.version.split()[0]}
     # Kernel temporário local usa o mesmo Python do comando; não instala kernel global.
-    kernel = ROOT / 'work/jupyter/kernels/grupo04'
+    kernel = ROOT / 'work/jupyter/kernels/olist-local'
     kernel.mkdir(parents=True, exist_ok=True)
-    (kernel / 'kernel.json').write_text(__import__('json').dumps({'argv': [sys.executable, '-m', 'ipykernel_launcher', '-f', '{connection_file}'], 'display_name': 'Grupo04 local', 'language': 'python'}), encoding='utf-8')
+    (kernel / 'kernel.json').write_text(__import__('json').dumps({'argv': [sys.executable, '-m', 'ipykernel_launcher', '-f', '{connection_file}'], 'display_name': 'Olist local', 'language': 'python'}), encoding='utf-8')
     os.environ['JUPYTER_PATH'] = str(ROOT / 'work/jupyter')
-    client = NotebookClient(nb, timeout=1200, kernel_name='grupo04', resources={'metadata': {'path': str(ROOT)}})
+    client = NotebookClient(nb, timeout=1200, kernel_name='olist-local', resources={'metadata': {'path': str(ROOT)}})
     client.execute()
     path = ROOT / 'notebooks/analise_exploratoria.ipynb'
     path.parent.mkdir(exist_ok=True)

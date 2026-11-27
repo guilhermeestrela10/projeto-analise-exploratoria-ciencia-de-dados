@@ -4,5 +4,5 @@
   "declaracao": "O solicitante informou que ele e o grupo revisaram o relatório.",
   "verificacao_independente_pela_ferramenta": false,
   "origem_assistida_por_ia_preservada": true,
-  "nao_equivale_a_aprovacao_da_professora": true
+  "nao_equivale_a_validacao_independente": true
 }

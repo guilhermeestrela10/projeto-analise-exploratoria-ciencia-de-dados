@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from verificar_entrega import verificar_autoria
+from verificar_autoria import verificar_autoria
 
 
 def test_reports_unfilled_authorial_sections(tmp_path):
@@ -27,7 +27,7 @@ def test_missing_or_broken_authorial_files_are_pending(tmp_path):
 
 
 def test_returns_no_textual_pending_for_completed_fixture(tmp_path):
-    # Conteúdo de teste; não é texto de entrega nem conclusão acadêmica.
+    # Conteúdo de teste; não é texto de entrega nem conclusão de produção.
     reports = tmp_path / 'reports'
     reports.mkdir()
     (reports / 'conclusoes_equipe.json').write_text(json.dumps(dict.fromkeys(['inicio','atrasos','avaliacoes','criterios'], 'Texto de teste')))

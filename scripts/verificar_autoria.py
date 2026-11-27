@@ -31,7 +31,7 @@ if __name__ == '__main__':
     for item in pending:
         print(f'PENDENTE: {item}')
     if pending:
-        print('NÃO PRONTO PARA ENTREGA: ainda existem pendências de autoria humana.')
+        print('REVISÃO DE AUTORIA PENDENTE: ainda existem pendências de autoria humana.')
     else:
-        print('Nenhum campo textual vazio identificado. Conferir autoria, PDF, commits reais e links publicados antes de entregar.')
+        print('Nenhum campo textual vazio identificado. Conferir autoria, PDF, commits reais e links publicados antes de publicar.')
     raise SystemExit(1 if pending else 0)

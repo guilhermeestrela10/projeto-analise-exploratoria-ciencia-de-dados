@@ -48,12 +48,12 @@ def friendly_metrics(metrics):
 
 
 def render(page):
-    st.set_page_config(page_title='Parceiros | Olist · Grupo 04', layout='wide')
+    st.set_page_config(page_title='Parceiros | Olist Seller Analytics', layout='wide')
     st.sidebar.title('Parceiros Olist')
     for path, label in [('app.py', 'Visão geral'), ('pages/1_Atrasos_no_Despacho.py', 'Atrasos no despacho'),
             ('pages/2_Atrasos_e_Avaliacoes.py', 'Atrasos e avaliações'), ('pages/3_Criterios_para_Vendedores.py', 'Critérios de acompanhamento')]:
         st.sidebar.page_link(path, label=label)
-    st.caption('UNIFSA · CIÊNCIA DE DADOS · GRUPO 04')
+    st.caption('Olist Seller Analytics · Indicadores de vendedores')
     titles = {'inicio': 'Gestão de vendedores parceiros', 'atrasos': 'Quais vendedores mais atrasam o despacho?',
               'avaliacoes': 'Vendedores que atrasam recebem avaliações piores?',
               'criterios': 'Critérios para acompanhar vendedores'}
